@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         var newVar = "New var"
         var test = "test"
         var albums = ["True blue", "Like a virgin", "Ray of light"]
+        var newWorld = "New world"
     }
 
 
