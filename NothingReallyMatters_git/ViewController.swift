@@ -11,7 +11,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        var newVar = "New var"
+        var test = "test"
+        var albums = ["True blue", "Like a virgin", "Ray of light"]
     }
 
 
