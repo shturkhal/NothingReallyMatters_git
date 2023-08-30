@@ -19,5 +19,6 @@ class ViewController: UIViewController {
     }
 
 
+    var txt = "i was created new file"
 }
 
