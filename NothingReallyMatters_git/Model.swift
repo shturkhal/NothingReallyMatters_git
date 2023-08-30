@@ -10,4 +10,5 @@ import Foundation
 
 class Model {
     var music = "music"
+    var forever = "forever"
 }
