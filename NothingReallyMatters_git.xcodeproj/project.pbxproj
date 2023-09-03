@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B3EB20C2AA4D08B0015EC4A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3EB20B2AA4D08B0015EC4A /* SecondViewController.swift */; };
 		7B42D4D32A9F2DA2007CAAAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B42D4D22A9F2DA2007CAAAF /* AppDelegate.swift */; };
 		7B42D4D52A9F2DA2007CAAAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B42D4D42A9F2DA2007CAAAF /* SceneDelegate.swift */; };
 		7B42D4D72A9F2DA2007CAAAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B42D4D62A9F2DA2007CAAAF /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B3EB20B2AA4D08B0015EC4A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		7B42D4CF2A9F2DA2007CAAAF /* NothingReallyMatters_git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NothingReallyMatters_git.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B42D4D22A9F2DA2007CAAAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B42D4D42A9F2DA2007CAAAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				7B42D4D22A9F2DA2007CAAAF /* AppDelegate.swift */,
 				7B42D4D42A9F2DA2007CAAAF /* SceneDelegate.swift */,
 				7B42D4D62A9F2DA2007CAAAF /* ViewController.swift */,
+				7B3EB20B2AA4D08B0015EC4A /* SecondViewController.swift */,
 				7B42D4E62A9F2EA4007CAAAF /* Model.swift */,
 				7B42D4D82A9F2DA2007CAAAF /* Main.storyboard */,
 				7B42D4DB2A9F2DA4007CAAAF /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 				7B42D4D72A9F2DA2007CAAAF /* ViewController.swift in Sources */,
 				7B42D4D32A9F2DA2007CAAAF /* AppDelegate.swift in Sources */,
 				7B42D4D52A9F2DA2007CAAAF /* SceneDelegate.swift in Sources */,
+				7B3EB20C2AA4D08B0015EC4A /* SecondViewController.swift in Sources */,
 				7B42D4E72A9F2EA4007CAAAF /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
