@@ -12,17 +12,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var newVar = "New var"
-        var test = "test"
-        var albums = ["True blue", "Like a virgin", "Ray of light"]
-        var newWorld = "New world"
+      
     }
 
 
-    var txt = "i was created new file"
-    // MARK: create om start
-    // MARK: Another
-    // MARK: Junior
-    // MARK: Commit
 }
 
