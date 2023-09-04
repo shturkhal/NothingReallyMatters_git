@@ -21,7 +21,8 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Open second view"/>
                                 <connections>
-                                    <segue destination="cPn-3R-5e1" kind="presentation" id="RSP-0D-Pwg"/>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N2U-03-K6D"/>
+                                    <segue destination="cPn-3R-5e1" kind="presentation" identifier="toSelect" id="RSP-0D-Pwg"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="alu-pz-PPf">
@@ -52,6 +53,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1im-nn-ft4" secondAttribute="trailing" constant="18" id="xkn-zx-abw"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ageTextField" destination="cpA-gX-CRO" id="8rT-It-ddN"/>
+                        <outlet property="nameTextField" destination="NwT-2E-NMM" id="6Vy-Sb-Q08"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -66,16 +71,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="qa3-hW-44h">
-                                <rect key="frame" x="18" y="427.66666666666669" width="392" height="60.666666666666686"/>
+                                <rect key="frame" x="18" y="398" width="392" height="120"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7NR-e2-aSa">
-                                        <rect key="frame" x="0.0" y="0.0" width="392" height="20.333333333333332"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7NR-e2-aSa">
+                                        <rect key="frame" x="0.0" y="0.0" width="392" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="age" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Lh-dC-Sfm">
-                                        <rect key="frame" x="0.0" y="40.333333333333314" width="392" height="20.333333333333329"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Lh-dC-Sfm">
+                                        <rect key="frame" x="0.0" y="70" width="392" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -91,6 +96,10 @@
                             <constraint firstItem="qa3-hW-44h" firstAttribute="leading" secondItem="bqO-1v-DXC" secondAttribute="leading" constant="18" id="kIE-We-oo3"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ageLabel" destination="6Lh-dC-Sfm" id="xSH-Uc-g5f"/>
+                        <outlet property="nameLabel" destination="7NR-e2-aSa" id="rOs-Oa-h7f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QhX-PE-47z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
